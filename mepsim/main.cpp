@@ -8,11 +8,15 @@
 
 #include <iostream>
 
-int main (int argc, const char * argv[])
-{
+int read_options(const char *filename) {
+    return 0;
+}
 
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main (int argc, const char *argv[])
+{
+    read_options(argv[1]);
+    create_instances();
+    run();
     return 0;
 }
 

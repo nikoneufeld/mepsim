@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		190A6F0B14E3290300922C49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 190A6F0A14E3290300922C49 /* main.cpp */; };
 		190A6F0D14E3290300922C49 /* mepsim.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 190A6F0C14E3290300922C49 /* mepsim.1 */; };
+		190A6F1414E3295900922C49 /* mepreqsim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 190A6F1314E3295900922C49 /* mepreqsim.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,7 @@
 		190A6F0614E3290300922C49 /* mepsim */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mepsim; sourceTree = BUILT_PRODUCTS_DIR; };
 		190A6F0A14E3290300922C49 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		190A6F0C14E3290300922C49 /* mepsim.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = mepsim.1; sourceTree = "<group>"; };
+		190A6F1314E3295900922C49 /* mepreqsim.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mepreqsim.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				190A6F0A14E3290300922C49 /* main.cpp */,
+				190A6F1314E3295900922C49 /* mepreqsim.cpp */,
 				190A6F0C14E3290300922C49 /* mepsim.1 */,
 			);
 			path = mepsim;
@@ -118,6 +121,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				190A6F0B14E3290300922C49 /* main.cpp in Sources */,
+				190A6F1414E3295900922C49 /* mepreqsim.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
