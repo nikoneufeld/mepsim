@@ -1,0 +1,209 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		190A6F0B14E3290300922C49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 190A6F0A14E3290300922C49 /* main.cpp */; };
+		190A6F0D14E3290300922C49 /* mepsim.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 190A6F0C14E3290300922C49 /* mepsim.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		190A6F0414E3290300922C49 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				190A6F0D14E3290300922C49 /* mepsim.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		190A6F0614E3290300922C49 /* mepsim */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mepsim; sourceTree = BUILT_PRODUCTS_DIR; };
+		190A6F0A14E3290300922C49 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		190A6F0C14E3290300922C49 /* mepsim.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = mepsim.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		190A6F0314E3290300922C49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		190A6EFB14E3290300922C49 = {
+			isa = PBXGroup;
+			children = (
+				190A6F0914E3290300922C49 /* mepsim */,
+				190A6F0714E3290300922C49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		190A6F0714E3290300922C49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				190A6F0614E3290300922C49 /* mepsim */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		190A6F0914E3290300922C49 /* mepsim */ = {
+			isa = PBXGroup;
+			children = (
+				190A6F0A14E3290300922C49 /* main.cpp */,
+				190A6F0C14E3290300922C49 /* mepsim.1 */,
+			);
+			path = mepsim;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		190A6F0514E3290300922C49 /* mepsim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 190A6F1014E3290300922C49 /* Build configuration list for PBXNativeTarget "mepsim" */;
+			buildPhases = (
+				190A6F0214E3290300922C49 /* Sources */,
+				190A6F0314E3290300922C49 /* Frameworks */,
+				190A6F0414E3290300922C49 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mepsim;
+			productName = mepsim;
+			productReference = 190A6F0614E3290300922C49 /* mepsim */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		190A6EFD14E3290300922C49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = CERN;
+			};
+			buildConfigurationList = 190A6F0014E3290300922C49 /* Build configuration list for PBXProject "mepsim" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 190A6EFB14E3290300922C49;
+			productRefGroup = 190A6F0714E3290300922C49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				190A6F0514E3290300922C49 /* mepsim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		190A6F0214E3290300922C49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190A6F0B14E3290300922C49 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		190A6F0E14E3290300922C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		190A6F0F14E3290300922C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		190A6F1114E3290300922C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		190A6F1214E3290300922C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		190A6F0014E3290300922C49 /* Build configuration list for PBXProject "mepsim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190A6F0E14E3290300922C49 /* Debug */,
+				190A6F0F14E3290300922C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		190A6F1014E3290300922C49 /* Build configuration list for PBXNativeTarget "mepsim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190A6F1114E3290300922C49 /* Debug */,
+				190A6F1214E3290300922C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 190A6EFD14E3290300922C49 /* Project object */;
+}
